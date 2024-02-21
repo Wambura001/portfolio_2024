@@ -1,0 +1,331 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* navigation bar section  */
+.navigationBar {
+  background-color: orange;
+  height: 50px;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigationBar #active {
+  color: white;
+  text-decoration: underline;
+}
+
+.navigationBar li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+.navigationBar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigationBar a:hover {
+  color: white;
+}
+
+/* home page  */
+/* intro section  */
+.intro {
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+  border: orange;
+  border-bottom-left-radius: 30px;
+  margin-bottom: 20px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+button {
+  font-size: large;
+  border: 3px solid darkorange;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, #ffa500, #ff7f00);
+  color: white;
+}
+
+button:hover {
+  background-image: linear-gradient(to top, #ff7f00, #ff4500);
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* contact section  */
+.contact {
+  border: 2px orange solid;
+  border-radius: 10px;
+  padding: 20px;
+  /* display: flex; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#contactForm {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+#contactForm input {
+  height: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#contactForm textarea {
+  width: 96%;
+  height: 100px;
+  resize: vertical;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+}
+
+/* project section  */
+.projects {
+}
+
+.projects h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.projectCard {
+  border: white 2px solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* align-items: stretch; */
+  /* flex-direction: column; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.projectCard img {
+  height: 150px;
+  border-radius: 10px;
+}
+
+.projectCard h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.projectCardContent {
+  display: flex;
+  justify-content: space-around;
+}
+
+#viewProjects {
+  width: 80%;
+}
+
+/* services section  */
+.services {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.servicesCard {
+  border: orange solid 2px;
+  border-radius: 10px;
+  background-color: #fafad2;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+/* client section  */
+.clients {
+  background: orange;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.clientContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientCard {
+  background: #f9d66a;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.clientCard img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* FAQ section  */
+.faq {
+  color: #CB6F14;
+  font-family: "Courier New", Courier, monospace;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.faq summary {
+  cursor: pointer;
+}
+.faq p{
+  color: black;
+}
+
+
+/* footer section  */
+footer {
+  /* text-align: center; */
+  background: darkgrey;
+  color: white;
+  padding: 20px;
+  /* border-radius: 10px; */
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: -15px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: row;
+}
+
+footer li {
+  list-style-type: none;
+  /* color: inherit; */
+}
+
+.footer p {
+  text-align: center;
+}
+
+
+/* book call section  */
+.bookCall {
+  height: 40px; 
+  position: sticky;
+  z index: 1000;
+  bottom: 30px;
+  /* margin-right: 300px; */
+}
+
+.bookCall img {
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: -1px 1px 6px rgba(0,0,0,.2);
+}
+
+
+/* about page  */
+.avatar {
+
+}
+
+.avatar img {
+  height: 150px;
+  border-radius: 50%;
+} 
+
+.experience {
+  border: 2px orange solid;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+/* about section  */
+.about {
+  margin-top: 40px;
+  margin-bottom:  40px;
+}
+
+.about img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.about h2,
+.about h3 {
+  text-align: center;
+}
+
+#aboutButton {
+  width: 80%;
+}
+
+.skillContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+    background: #f9d66a;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  
+}
+
+.skillContainer li {
+  list-style-type: none;
+}
+
+#logo {
+  height: 13px;
+}
+
+/* projects page  */
+/* proof section  */
+.video {
+  display: flex;
+  justify-content: spacebetween;
+  align-items: center;
+  background: #f9d66a;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.video img {
+  height: 150px;
+}

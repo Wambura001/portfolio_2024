@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wambura's Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- navigation bar section  -->
+    <div class="navigationBar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html" id="active">Projects</a></li>
+      </ul>
+    </div>
+
+    <h1>My Projects</h1>
+
+    <div class="projectCard">
+      <h2>Project Name</h2>
+      <img src="" alt="" />
+      <h3>Description</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor provident
+        quis cupiditate quisquam nisi temporibus, fuga error quam excepturi
+        autem amet laboriosam iusto deleniti eius cum ad illum eos odit.
+      </p>
+      <h3>Technologies Used</h3>
+      <!-- add logos  -->
+      <ul>
+        <li>react</li>
+        <li>express</li>
+      </ul>
+      <button
+        onclick="window.location='https://github.com/wamburajr'"
+        target="_blank"
+      >
+        View on GitHub
+      </button>
+      <button>Live Demo</button>
+    </div>
+
+    <!-- proof section  -->
+    <h2>Videos you might like</h2>
+
+    <h3>why bla bla bla</h3>
+    <div class="video">
+      <div class="video2">
+        <p>Why using react bla bla bla</p>
+      </div>
+      <div class="video1">
+        <img src="images/demo.jpg" alt="vid thumbnail" />
+      </div>
+    </div>
+
+    <!-- contact section  -->
+    <div class="contact">
+      <p></p>
+      <form action="#" id="contactForm">
+        <label for="name">Write a brief description of your project:</label
+        ><br /><br />
+        <textarea name="description" id="projectDescription"></textarea
+        ><br /><br />
+
+        <label for="email">Please fill in your email:</label><br /><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="youremail@gmail.com"
+        /><br /><br />
+
+        <button type="submit" id="submitButton">Contact me</button>
+      </form>
+    </div>
+
+    <!-- footer section  -->
+    <footer>
+      <div class="footer">
+        <div class="footerContainer">
+          <div class="footerContent">
+            <h4>Quick links</h4>
+            <ul>
+              <li>
+                <img src="images/home.svg" alt="home logo" id="logo" /> Home
+              </li>
+              <li>
+                <img src="images/projects.svg" alt="project logo" id="logo" />
+                Projects
+              </li>
+              <li>
+                <img src="images/about.svg" alt="about logo" id="logo" /> About
+                me
+              </li>
+            </ul>
+          </div>
+
+          <div class="footerContent">
+            <h4>Social Media</h4>
+            <ul>
+              <li>
+                <img src="images/linkedIn.svg" alt="linkedIn logo" id="logo" />
+                linkedIn
+              </li>
+              <li>
+                <img
+                  src="images/instagram.svg"
+                  alt="instagram logo"
+                  id="logo"
+                />
+                Instagram
+              </li>
+              <li>
+                <img src="images/facebook.svg" alt="facebook logo" id="logo" />
+                Facebook
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p>Copyright &copy; 2024 - Wambura Meshack</p>
+      </div>
+    </footer>
+
+    <!-- book call section  -->
+    <div class="bookCall">
+      <img src="images/call.png" alt="book call" />
+    </div>
+
+    <!-- javascript section  -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
