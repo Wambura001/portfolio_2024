@@ -17,30 +17,71 @@
       </ul>
     </div>
 
-    <h1>My Projects</h1>
-
-    <div class="projectCard">
-      <h2>Project Name</h2>
-      <img src="" alt="" />
-      <h3>Description</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor provident
-        quis cupiditate quisquam nisi temporibus, fuga error quam excepturi
-        autem amet laboriosam iusto deleniti eius cum ad illum eos odit.
-      </p>
-      <h3>Technologies Used</h3>
-      <!-- add logos  -->
+    <!-- second navigation bar  -->
+    <div class="navigationBar2">
       <ul>
-        <li>react</li>
-        <li>express</li>
+        <li>Design</li>
+        <li>Front-end</li>
+        <li>Back-end</li>
       </ul>
-      <button
-        onclick="window.location='https://github.com/wamburajr'"
-        target="_blank"
-      >
-        View on GitHub
-      </button>
-      <button>Live Demo</button>
+    </div>
+
+    <!-- Projects section -->
+    <!-- double p for project page -->
+    <div class="projectsSection">
+      <h1>Design Projects</h1>
+      <div class="pprojectContainer">
+        <div class="pprojectCard">
+          Jina ya projo
+          <button class="show-overlay">About Project</button>
+        </div>
+
+        <div class="modal-overlay">
+          <div class="projectCard">
+            <div class="modal-content">
+              <h2>Project Name</h2>
+              <img src="" alt="" />
+              <h3>Description</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                provident quis cupiditate quisquam nisi temporibus, fuga error
+                quam excepturi autem amet laboriosam iusto deleniti eius cum ad
+                illum eos odit.
+              </p>
+              <h3>Technologies Used</h3>
+              <!-- add logos  -->
+              <ul>
+                <li>react</li>
+                <li>express</li>
+              </ul>
+              <button>View on GitHub</button>
+              <button class="close-btn">Close</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pprojectCard">Jina ya projo</div>
+        <div class="pprojectCard">Jina ya projo</div>
+        <div class="pprojectCard">Jina ya projo</div>
+      </div>
+    </div>
+    <div class="projectsSection">
+      <h1>Front-end Projects</h1>
+      <div class="pprojectContainer">
+        <div class="pprojectCard">Jina ya projo</div>
+        <div class="pprojectCard">Jina ya projo</div>
+        <div class="pprojectCard">Jina ya projo</div>
+        <div class="pprojectCard">Jina ya projo</div>
+      </div>
+    </div>
+    <div class="projectsSection">
+      <h1>Back-end Projects</h1>
+      <div class="pprojectContainer">
+        <div class="pprojectCard">Jina ya projo</div>
+        <div class="pprojectCard">Jina ya projo</div>
+        <div class="pprojectCard">Jina ya projo</div>
+        <div class="pprojectCard">Jina ya projo</div>
+      </div>
     </div>
 
     <!-- proof section  -->
@@ -62,7 +103,11 @@
       <form action="#" id="contactForm">
         <label for="name">Write a brief description of your project:</label
         ><br /><br />
-        <textarea name="description" id="projectDescription"></textarea
+        <textarea
+          name="description"
+          id="projectDescription"
+          placeholder="Design and Build a custom website for my agency"
+        ></textarea
         ><br /><br />
 
         <label for="email">Please fill in your email:</label><br /><br />

@@ -74,6 +74,8 @@ button a {
   /* display: flex; */
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 #contactForm {
@@ -119,12 +121,19 @@ button a {
   padding: 20px;
 }
 
-.projectCard img {
+.projectCardImg img {
   height: 150px;
   border-radius: 10px;
 }
 
-.projectCard h2 {
+.projectCardDescription,
+.projectCardImg {
+  padding: 10px;
+  margin: 10px;
+}
+
+.projectCard h2,
+.projectCard h3 {
   font-weight: normal;
   margin-bottom: 10px;
   text-align: center;
@@ -143,6 +152,10 @@ button a {
 .services {
   margin-bottom: 30px;
   padding: 20px;
+}
+
+.services h2{
+  text-align: center;
 }
 
 .servicesContainer {
@@ -266,6 +279,11 @@ footer li {
   border: 2px orange solid;
   border-radius: 10px;
   padding: 20px;
+  margin: 40px;
+}
+
+.experience img {
+  height: 200px;
 
 }
 
@@ -295,12 +313,13 @@ footer li {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px;
-    background: #f9d66a;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    padding: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
+  margin: 80px;
+  background: #f9d66a;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  /* margin-right: 20px;
+  margin-bottom: 40px; */
   
 }
 
@@ -313,6 +332,41 @@ footer li {
 }
 
 /* projects page  */
+/* second navigation bar  */
+.navigationBar2 {
+  position: sticky;
+  display: flex;
+  position-items: spacebetween;
+}
+
+/* projects section  */
+.projectsSection {
+
+}
+
+.projectsSection h1 {
+  text-align: center;
+}
+
+.pprojectContainer {
+  display: flex;
+}
+
+.pprojectCard {
+  border: orange 2px solid;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.modal-overlay {
+  /* z-index: 0; */
+  display: none;
+}
+
+.open-modal {
+  z-index: 10;
+}
+
 /* proof section  */
 .video {
   display: flex;
