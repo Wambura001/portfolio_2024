@@ -121,6 +121,10 @@ button a {
   padding: 20px;
 }
 
+.projectCard img {
+  height: 400px;
+}
+
 .projectCardImg img {
   height: 150px;
   border-radius: 10px;
