@@ -337,12 +337,6 @@ footer li {
 
 /* projects page  */
 /* second navigation bar  */
-.navigationBar2 {
-  position: sticky;
-  display: flex;
-  position-items: spacebetween;
-}
-
 /* projects section  */
 .projectsSection {
 
@@ -362,13 +356,9 @@ footer li {
   height: 100px;
 }
 
-.modal-overlay {
-  /* z-index: 0; */
-  display: none;
-}
-
-.open-modal {
-  z-index: 10;
+#projectImage{
+  height: auto;
+  width: 80vw;
 }
 
 /* proof section  */
@@ -432,6 +422,14 @@ footer li {
     align-items: center;
     justify-content: space-around;
   }
+
+  /* about page  */
+  .experience img {
+    height: 125px;
+    width: auto;
+  }
+
+
 
     
   }
