@@ -387,3 +387,51 @@ footer li {
 .video img {
   height: 150px;
 }
+
+/* Tablet  */
+@media screen  and  (max-width: 768px) {
+  /* contact form  */
+  .contact {
+    border: 2px orange solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+}
+
+/* phones  */
+  @media screen  and  (max-width: 480px) {
+    /* contact form  */
+    .contact {
+      border: 2px orange solid;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    /* home page  */
+  /* clients section */
+  .clientContainer {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .clientCard {
+    /* width: 100%; */
+    margin-bottom: 30px;
+  } 
+
+  /* projects section  */
+  .projectCardContent {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+    
+  }
