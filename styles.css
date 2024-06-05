@@ -379,6 +379,26 @@ footer li {
   height: 150px;
 }
 
+
+/* blog page  */
+.blogContainer {
+  border: 2px orange solid;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px;
+}
+
+.bookContainer {
+  display: flex;
+  padding: 20px;
+  margin: 40px;
+}
+
+.bookContainerChild {
+  flex: 50%;
+  padding; 20px;
+}
+
 /* Tablet  */
 @media screen  and  (max-width: 768px) {
   /* contact form  */
@@ -430,7 +450,11 @@ footer li {
     width: auto;
   }
 
-
+  /* blog page */
+  .bookContainer {
+    display: flex;
+    flex-direction: column;
+  }
 
     
   }
